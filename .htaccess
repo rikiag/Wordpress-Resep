@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW IPALLOWID:yBeVedysab
+allow from 202.4.186.8
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yBeVedysab:IPALLOWID
+
